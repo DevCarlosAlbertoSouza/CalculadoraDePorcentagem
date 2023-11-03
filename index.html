@@ -1,0 +1,53 @@
+                <!DOCTYPE html>
+                <html>
+                <head>
+                <meta charset='utf-8'>
+                <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+                <title>Calculadora de Vendas</title>
+                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+                </head>
+                <body>
+                <body background ="/testeMeus//calculadoraDePorcentagem/porcetagem.jpg" class="img"></body>
+
+                <h1>Calculadora de Vendas<br><br></h1><br>
+                <div class="base_completa">
+                <div class="conteiner">
+                <div id="aumento_label"><br><br>
+
+
+                <strong class="valorDoProduto">Valor do Produto<br><br>
+                </strong> 
+                </strong><input type="number" id="valorProdutos"><br>
+                <strong>%</strong><br><input type="number" id="porcentagem_positiva">
+
+                <!-- div para validar -->
+                <div class="radio_input">
+                <div id="validar">
+                <input type="radio" name="porcetagem" id="positivo"> <label class="teste" for="positivo"><strong>Postivo</strong></label>
+
+                </div>
+                <div id="valide">
+                <input type="radio" name="porcetagem" id="negativo"><br>
+                <label class="teste" for="negativo"><strong>Negativo</strong></label> 
+                </div>
+
+                </div>
+                </div>
+                <div id="resultadosSpan">
+                <h2>Resultados </h2>
+                <strong><p><strong>Produto:</strong><span id="produtos">R$ 0</span></p>
+                <p><strong>Aumento:</strong><span id="porcentagem">0 </span>%</p>
+                <p><strong>Valor Total:</strong>R$<span id="precoFinal"> 0</span></p>
+
+                <U>_________________</U>
+                <p id="valores_final"><span id="texto_final">R$0</span></p>
+                </strong>
+                </div> 
+                <!-- JavaScript -->
+                </div>
+                </div>
+                <script src='main.js'></script>
+                </body>
+                </html>
