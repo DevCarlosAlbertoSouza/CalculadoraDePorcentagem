@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e1e; /* Cor de fundo mais escura para um tema agressivo */
+    color: #fff; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3 {
+    font-size: 32px;
+    line-height: normal;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.base_completa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner {
+    width: 350px;
+    height: auto;
+    background-color: #333; /* Cor de fundo do conteiner */
+    padding: 26px;
+    border-radius: 10px; /* Borda mais arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada */
+  
+}
+
+.inputValidacao {
+    width: 98%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-numeros {
+    width: 70% !important;
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 3px solid #555; /* Borda mais destacada */
+    border-radius: 8px;
+    background-color: #444; /* Cor de fundo do input */
+    color: #fff; /* Cor do texto do input */
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #ff6600; /* Cor de fundo do botão 
+    color: #fff;  Cor do texto do botão
+    border: 2px solid #ff6600; /* Borda destacada 
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #ff8533; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.result-span-div {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#valores_final {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    /* Cor do texto final */
+}
+
+/* Adicione mais estilos conforme necessário para se parecer com uma calculadora */
+.preco-Final{
+    color: rgb(255, 1, 1);
+}
